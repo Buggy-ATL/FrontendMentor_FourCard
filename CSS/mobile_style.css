@@ -1,0 +1,41 @@
+/* Smartphones */
+@media only screen and (max-width: 600px) {
+  header {
+    margin: 0.5rem;
+    text-align: center;
+  }
+
+  .header-para {
+    margin: 1rem 0 1rem 0;
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+  }
+
+  #cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+
+  .card {
+    width: 325px;
+    height: 250px;
+  }
+}
+
+/* Tablets */
+@media only screen and (max-width: 768px) {
+  #cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #cards {
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+}
