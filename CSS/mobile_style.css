@@ -1,8 +1,16 @@
 /* Smartphones */
 @media only screen and (max-width: 600px) {
+  .container {
+    padding-top: 0.5rem;
+  }
+
   header {
     margin: 0.5rem;
     text-align: center;
+  }
+
+  .span-dark {
+    font-size: 2.5rem;
   }
 
   .header-para {

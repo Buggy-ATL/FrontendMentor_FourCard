@@ -29,6 +29,14 @@ header {
   text-align: center;
 }
 
+.span-light {
+  font-weight: 200;
+}
+
+.span-dark {
+  font-weight: 600;
+}
+
 .header-para {
   margin: 1rem 5rem 3rem 5rem;
   font-weight: 400;
